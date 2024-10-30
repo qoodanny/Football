@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px) {
+    #home-button p {
+        display: none;
+    }
+}
+
+#navbar {
+  border-bottom: 2px solid #1f6072;
+
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  background-color: #367588;
+
+  position: sticky;
+  top: 0;
+
+  z-index: 1000000000000;
+}
+
+#home-button {
+  display: flex;
+  text-decoration: none;
+}
+
+#home-button p {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#home-button-pic {
+  height: 100%;
+}
+
+#nav-buttons {
+  display: flex;
+}
+
+#nav-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  font-weight: bolder;
+
+  height: 100%;
+}
+
+.nav-button:hover {
+  background-color: #1e6377;
+}
+
+.nav-button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.on {
+  background-color: #1589aa;
+}
+
+#profile-button {
+    display: none !important; /*not implemented*/
+  height: 80%;
+  align-self: center;
+  margin-left: auto; /*auto -> max amount of space = goes to right*/
+  padding-top: 10px;
+}
+
+#profile-button > #profile-pic {
+    display: none !important; /*not implemented*/
+  height: 100%;
+}

@@ -1,0 +1,37 @@
+.query-input {
+  appearance: none;
+  background-color: #dedede;
+  border: 2px solid #dedede;
+  border-radius: 0.25em;
+  font-weight: bolder;
+  height: 27.5px !important;
+}
+
+#sort {
+  grid-area: sort;
+
+  height: 100%;
+  width: max-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+}
+
+#sort > select {
+  width: 135px;
+
+  appearance: none;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  border-radius: 0.25em;
+  text-align: center;
+}
+
+#sort > select:hover {
+  cursor: pointer;
+}

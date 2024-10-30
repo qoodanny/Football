@@ -1,0 +1,64 @@
+.custom-page {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+}
+
+#create-team {
+    margin-top: 20px;
+    justify-self: center;
+    width: 55%;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: #27798f;
+    color: white;
+    font-weight: bolder;
+}
+#create-team:hover {
+    cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  display: grid;
+  width: max-content;
+  height: max-content;
+  grid-template-areas:
+    'title'
+    'author'
+    'image';
+  grid-template-columns: 250px;
+  grid-template-rows: 30px 30px 350px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.post p {
+  margin-left: 5px;
+}
+
+#title {
+  grid-area: title;
+  justify-self: left;
+  align-self: center;
+  font-weight: bold;
+}
+
+#author {
+  grid-area: author;
+  justify-self: left;
+  align-self: center;
+}
+
+#formation {
+  grid-area: image;
+  border-top: 1px solid black;
+  width: 100%;
+  height: 100%;
+}

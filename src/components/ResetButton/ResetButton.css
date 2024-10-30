@@ -1,0 +1,26 @@
+#reset {
+  grid-area: reset;
+  width: 75px;
+  height: 27.5px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+
+  justify-self: center;
+  text-align: center;
+
+  appearance: none;
+  background-color: rosybrown;
+  border: 2px solid rosybrown;
+  font-weight: bolder;
+  color: white;
+  border-radius: 0.25em;
+}
+
+#reset:hover {
+  cursor: pointer;
+}
+
+#reset:active {
+  background-color: grey;
+}
